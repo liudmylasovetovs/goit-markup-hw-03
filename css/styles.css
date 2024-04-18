@@ -114,10 +114,6 @@ img {
   color: var(--color-dark);
 }
 
-.logo-part-footer {
-  color: var(--color-light);
-}
-
 .nav-list {
   display: flex;
   align-items: center;
@@ -339,13 +335,28 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:baseline;
+  height: 312px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding-bottom: 60px;
 
+}
+.logo-part-footer {
+  color: var(--color-light);
+  
+}
 .text-footer {
   color: var(--color-light);
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding-top: 16px;
 }
 .section-portfolio-buttons {
   display: flex;
