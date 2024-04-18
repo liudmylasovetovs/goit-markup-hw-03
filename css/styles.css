@@ -183,7 +183,18 @@ img {
   box-sizing: border-box;
   padding-bottom: 60px;
 }
-
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  box-sizing: border-box;
+  /* padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0; */
+}
 .hero-title {
   color: var(--color-white-background);
   display: flex;
@@ -194,8 +205,8 @@ img {
   font-weight: 700;
   line-height: 1.07143;
   letter-spacing: 1.12px;
-  /* margin: 188px 472px 48px 472px; */
-}
+  margin-bottom: 18px;
+  }
 
 .hero-button {
   color: var(--color-white-background);
@@ -252,7 +263,17 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-
+.section-work .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 156px;
+  margin-right: 156px;
+}
 .section-work {
   display: flex;
   flex-wrap: wrap;
@@ -272,16 +293,27 @@ img {
   line-height: 1.11111;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  padding-bottom: 24px;
+  padding-bottom: 72px;
 }
 
 .work-list {
   display: flex;
-  /* justify-content: space-between; */
+   justify-content: space-around;
 
   align-items: flex-start;
   gap: 24px;
-  width: calc((100% - 2 * 24px) / 3);
+  /* width: calc((100% - 2 * 24px) / 3); */
+}
+.section-team .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 156px;
+  margin-right: 156px;
 }
 .section-team {
   display: flex;
@@ -295,9 +327,9 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-  align-items: flex-start;
-  /* justify-content: space-between; */
-  width: calc((100% - 3 * 24px) / 4);
+  align-items: center;
+  justify-content: center;  
+  /* width: calc((100% - 3 * 24px) / 4); */
 }
 .team-title {
   color: var(--color-dark);
@@ -308,7 +340,7 @@ img {
   line-height: 1.11111;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  padding-bottom: 24px;
+  padding-bottom: 72px;
 }
 
 .team-list-title {
