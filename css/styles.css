@@ -322,7 +322,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.4px;
   padding-bottom: 8px;
-
 }
 
 .team-list-text {
@@ -335,20 +334,18 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.footer{
+.footer {
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items:baseline;
+  justify-content: center;
+  align-items: baseline;
   height: 312px;
   flex-shrink: 0;
   box-sizing: border-box;
   padding-bottom: 60px;
-
 }
 .logo-part-footer {
   color: var(--color-light);
-  
 }
 .text-footer {
   color: var(--color-light);
@@ -363,10 +360,10 @@ img {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-   padding-top: 24px;
+  padding-top: 24px;
   flex-shrink: 0;
-    margin: 0 auto;
-    min-width: 586px;
+  margin: 0 auto;
+  min-width: 586px;
 }
 .button {
   color: var(--color-primary-brand);
@@ -377,10 +374,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.64px;
   background-color: var(--color-light);
-    padding: 12px 24px;
-    border-radius: 4px;
+  padding: 12px 24px;
+  border-radius: 4px;
   border: 1px solid var(--color-accent);
- 
 }
 
 .buttons-list {
@@ -399,7 +395,8 @@ img {
 
 .button:active {
   background-color: var(--color-pressed-states);
-  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 .section-portfolio {
   display: flex;
