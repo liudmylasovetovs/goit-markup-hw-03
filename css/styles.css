@@ -261,12 +261,15 @@ img {
 
 .section-work {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
   flex-shrink: 0;
-  margin: 120px 156px 120px 156px;
-}
+  margin: 0 auto;
+  
+
+} 
 
 .work-title {
   color: var(--color-dark);
@@ -277,18 +280,35 @@ img {
   line-height: 1.11111;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ padding-bottom: 24px;
 }
 
 .work-list {
-  display: flex;
-  justify-content: center;
+display: flex;
+  justify-content: space-between;
+  align-items: center;
   gap: 24px;
   width: calc((100% - 2 * 24px) / 3);
+  
 }
-
+.section-team{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin: 0 auto;
+  
+.team-list {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+width: calc((100% - 3 * 24px) / 4);
+}
+  
+}
 .team-title {
   color: var(--color-dark);
   text-align: center;
@@ -300,17 +320,10 @@ img {
   text-transform: capitalize;
 }
 
-.team-list {
-  display: flex;
-  gap: 10px;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 10px;
-  width: calc((100% - 2 * 24px) / 3);
-}
 
 .team-list-title {
   color: var(--color-dark);
+  text-align: center;
   font-family: inherit;
   font-size: 20px;
   font-weight: 500;
