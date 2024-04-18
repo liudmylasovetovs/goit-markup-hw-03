@@ -271,7 +271,7 @@ header .container {
 }
 .footer {
   padding: 100px 0;
-    background-color: var(--color-dark);
+  background-color: var(--color-dark);
 }
 .footer .container {
   display: flex;
@@ -341,17 +341,16 @@ header .container {
   display: flex;
   align-items: center;
   padding-bottom: 120px;
-  }
+}
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;
   gap: 24px;
   row-gap: 48px;
-    }
-  .portfolio-list-li {
+}
+.portfolio-list-li {
   width: calc((100% - 2 * 24px) / 3);
-  /* margin-bottom: 48px; */
   border: 1px solid var(--color-accent);
 }
 .portfolio-list-title {
@@ -392,4 +391,3 @@ header .container {
 .section-team {
   background-color: var(--color-light);
 }
-
