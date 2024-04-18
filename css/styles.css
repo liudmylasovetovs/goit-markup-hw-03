@@ -62,6 +62,7 @@ img {
   display: block;
   max-width: 100vh;
   height: auto;
+  padding-bottom: 32px;
 }
 
 .section-features,
@@ -313,6 +314,7 @@ img {
   line-height: 1.11111;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  padding-bottom: 24px;
 }
 
 .team-list-title {
@@ -323,6 +325,8 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  padding-bottom: 8px;
+
 }
 
 .team-list-text {
@@ -343,7 +347,16 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-
+.section-portfolio-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+   padding-top: 24px;
+  flex-shrink: 0;
+    margin: 0 auto;
+    min-width: 586px;
+}
 .button {
   color: var(--color-primary-brand);
   text-align: center;
@@ -353,20 +366,18 @@ img {
   line-height: 1.5;
   letter-spacing: 0.64px;
   background-color: var(--color-light);
-  display: flex;
-  padding: 12px 24px;
-  justify-content: center;
-  border-radius: 4px;
+    padding: 12px 24px;
+    border-radius: 4px;
   border: 1px solid var(--color-accent);
+ 
 }
 
 .buttons-list {
   display: flex;
-  gap: 10px;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 10px;
-  width: calc((100% - 2 * 24px) / 3);
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+  width: calc((100% - 4 * 24px) / 5);
 }
 
 .button:hover,
@@ -377,15 +388,23 @@ img {
 
 .button:active {
   background-color: var(--color-pressed-states);
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
-
+.section-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin: 0 auto;
+}
 .portfolio-list {
   display: flex;
-  gap: 10px;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 10px;
-  width: calc((100% - 2 * 12px) / 3);
+  gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+  width: calc((100% - 2 * 24px) / 3);
 }
 
 .portfolio-list-title {
@@ -395,6 +414,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  padding-bottom: 8px;
 }
 
 .portfolio-list-link {
